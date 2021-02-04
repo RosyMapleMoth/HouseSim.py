@@ -1,0 +1,204 @@
+{
+    "house name" : "scoberdoo",
+    "Rooms" : {
+        "doorstep": {
+            "Discription":"",
+            "Moves": { 
+                "frontdoor":"foyer",
+                "grass":"front yard"
+            }
+        },
+        "front yard": {
+            "Discription":"",
+            "Moves": { 
+                "gate":"back yard",
+                "steps":"doorstep"
+            }
+        },
+        "foyer": {
+            "Discription":"",
+            "Moves": { 
+                "frontdoor":"doorstep",
+                "west door":"living room",
+                "east door":"bathroom",
+                "east door2":"guest bedroom",
+                "south door":"hallway",
+                "upthestairs":"2ndfloorlanding"
+            }
+        },
+        "2ndfloorlanding": {
+            "Discription":"",
+            "Moves": { 
+            }
+        },
+        "bathroom": {
+            "Discription":"",
+            "Moves": { 
+                "west door":"foyer"
+            }
+        },
+        "guest bedroom": {
+            "Discription":"",
+            "Moves": { 
+                "west door":"foyer"
+            }
+        },
+        "hallway": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"foyer",
+                "south door":"kids room",
+                "south door2":"master bedroom",
+                "south door3":"storage closet"
+            }
+        },
+        "master bedroom": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"hallway",
+                "south door":"master bedroom closet"
+            }
+        },
+        "kids room": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"hallway",
+                "south door":"kids room closet"
+            }
+        },
+        "kids room closet": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"kids room"
+            }
+        },
+        "master bedroom closet": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"master bedroom"
+            }
+        },
+        "storage closet": {
+            "Discription":"",
+            "Moves": { 
+                "west door":"hallway"
+            }
+        },
+        "living room": {
+            "Discription":"",
+            "Moves": { 
+                "east door":"foyer",
+                "south door":"dining room"
+            }
+        },
+        "dining room": {
+            "Discription":"",
+            "Moves": { 
+                "north door":"living room",
+                "south door":"laundry room",
+                "south door2":"kitchen"
+            }
+        },
+        "laundry room": {
+            "Discription":"",
+            "Moves": {
+                "back":"dining room",
+                "down":"laundry chute"
+            }
+        },
+        "laundry chute": {
+            "Discription":"",
+            "Moves": {
+            }
+        },
+        "kitchen": {
+            "Discription":"",
+            "Moves": {
+                "west door":"pantry"
+            }
+        },
+        "pantry": {
+            "Discription":"",
+            "Moves": {
+                "east door":"kitchen"
+            }
+        },
+        "back yard": {
+            "Discription":"",
+            "Moves": { 
+                "frontdoor":"shed1",
+                "newmove":"front yard"
+            }
+        },
+        "shed1": {
+            "Discription":"",
+            "Moves": {
+                "back":"back yard",
+                "forwards":"shed2"
+            }
+        },
+        "shed2": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed1",
+                "forwards":"shed3"
+            }
+        },
+        "shed3": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed2",
+                "forwards":"shed4"
+            }
+        },
+        "shed4": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed3",
+                "forwards":"shed5"
+            }
+        },
+        "shed5": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed4",
+                "forwards":"shed6"
+            }
+        },
+        "shed6": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed5",
+                "forwards":"shed7"
+            }
+        },
+        "shed7": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed6",
+                "forwards":"shed8"
+            }
+        },
+        "shed8": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed7",
+                "forwards":"shed9"
+            }
+        },
+        "shed9": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed8",
+               "forwards":"shed10"
+            }
+        },
+        "shed10": {
+            "Discription":"",
+            "Moves": {
+                "back":"shed9",
+                "mdoor":"partyvortex"
+            }
+        }
+    }
+}

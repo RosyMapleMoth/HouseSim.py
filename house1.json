@@ -1,0 +1,42 @@
+{
+    "house name" : "test house",
+    "Rooms" : {
+        "doorstep": {
+            "Discription":"Welcome to the house party! You're at front the door right now, if you'd like to come you can use '$move Front door' but you might want to '$Knock Front door' first",
+            "Moves": { 
+                "frontdoor":"mainroom" 
+            }
+            
+        },
+        "mainroom": {
+            "Discription":"You enter the main room. To the south is the front door, to the north is a small blue door, to the east there are two doors one grey and one red",
+            "Moves": { 
+                "frontdoor":"doorstep",
+                "reddoor":"closet",
+                "greydoor":"bathroom",
+                "bluedoor":"bedroom"
+            }
+        },
+        "bathroom" : {
+            "Discription":"this looks like a bedroom, to north there is a yellow door, to the south there is a grey door",
+            "Moves": { 
+                "greydoor":"mainroom",
+                "yellowdoor":"bedroom"
+            }
+        },
+        "bedroom" : {
+            "Discription":"its a bed room, developer was to lazy to list off all the doors maybe you should '$move' back thought the last door you '$move'ed to go back",
+            "Moves": { 
+                "bluedoor":"mainroom"
+            }
+        },
+        "closet" : {
+            "Discription":"As you enter the small empty room the door closes behind you. When you look back you can't seem to find a door you could try '$search'ing or maybe '$knock'ing ",
+            "Moves": { 
+            },
+            "HMovies": {
+                "openthedoor":["mainroom", "Weird you thought there wasn't a door, but you open the door and find yourself in the main room"]
+            }
+        }
+    }
+}
