@@ -5,9 +5,10 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 
-file1 = opne("token.txt", "r")
+file1 = open("token.txt", "r")
 
-TOKEN = file1.readlines()
+TOKEN = file1.readlines()[0]
+
 
 client = discord.Client()
 
